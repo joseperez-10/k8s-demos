@@ -1,8 +1,8 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
-  kind: Kustomization
-  resources:
-    - hspc-operator-namespace.yaml
-    - regcred-redhat-com.yaml
-    - regcred-redhat-io.yaml
-    - hspc-operator.yaml
-    - hspc_v1_hspc.yaml
+kind: Kustomization
+resources:
+  - hspc-operator-namespace.yaml
+  - regcred-redhat-com.yaml
+  - regcred-redhat-io.yaml
+  - hspc-operator.yaml
+  - hspc_v1_hspc.yaml
