@@ -6,3 +6,4 @@ resources:
   - base/regcred-redhat-com.yaml
   - base/hspc-operator.yaml
   - base/hspc_v1_hspc.yaml
+  
